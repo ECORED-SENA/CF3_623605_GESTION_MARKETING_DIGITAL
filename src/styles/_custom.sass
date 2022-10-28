@@ -1,19 +1,471 @@
 .banner-principal-decorativo
   &-1
+    animation: fade 8s ease-in infinite
+    animation-direction: alternate
+    -webkit-backface-visibility: hidden        
+    position: absolute
+    width: 200px !important 
+    top: 11.3%
+    right: 20%
+  &-2
+    animation: fade2 8s ease-in infinite
+    animation-direction: alternate
+    -webkit-backface-visibility: hidden        
+    position: absolute
+    width: 200px !important 
+    top: 11%
+    right: 19.2%
+  &-3
+    animation: fade3 8s ease-in infinite
+    animation-direction: alternate
+    -webkit-backface-visibility: hidden        
+    position: absolute
+    width: 215px !important 
+    top: 11%
+    right: 18%    
+  &-4
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
-  &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    width: 70px 
+    top: 5%
+    right: 100%
+  &-5
+    animation: float2 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 51%
+    width: 40px 
+    top: 10%
     right: 30%
-
+  &-6
+    animation: float3 2.5s ease-in-out infinite alternate
+    position: absolute
+    width: 40px 
+    top: 40%
+    right: 0%
+  &-7
+    animation: float4 3.5s ease-in-out infinite alternate
+    position: absolute
+    width: 50px 
+    top: 75%
+    right: 0%
+  &-8
+    animation: float4 3.5s ease-in-out infinite alternate
+    position: absolute
+    width: 90px 
+    top: 65%
+    right: 100%
+  &-9
+    animation: float3 3.5s ease-in-out infinite alternate
+    position: absolute
+    width: 100px 
+    top: 30%
+    right: 120%
+  &-10
+    animation: float4 3.5s ease-in-out infinite alternate
+    position: absolute
+    width: 50px 
+    top: 30%
+    right: 80%                        
 
 @keyframes float1
   0%
+    transform: translatex(20px)
+
+  50%
+    transform: translatex(0px)
+  100%
+    transform: rotate(-10deg)
+
+@keyframes float2
+	0% 
+		transform: rotate(0deg) translateX(-20px) rotate(-20deg)
+	
+
+	100% 
+		transform: rotate(180deg) translateX(-20px) rotate(-180deg)  
+
+@keyframes float3
+  0%
     transform: translateY(20px)
 
-  100%
+  50%
     transform: translateY(0px)
+  100%
+    transform: rotate(-10deg)
+
+@keyframes float4
+	0% 
+		transform: rotate(0deg) translateX(-20px) rotate(-20deg)
+	
+
+	100% 
+		transform: rotate(-180deg) translateX(-20px) rotate(180deg) 
+
+.banner-principal__img
+  width: 250px !important     
+
+
+@keyframes fade
+  0%
+    opacity: 0    
+  10%
+    opacity: 0    
+  20%
+    opacity: 0    
+  30%
+    opacity: 1    
+  40%
+    opacity: 1    
+  50%
+    opacity: 1    
+  60%
+    opacity: 0    
+  70%
+    opacity: 0    
+  80%
+    opacity: 0    
+  90%
+    opacity: 0    
+  100%
+    opacity: 0    
+@keyframes fade2
+  0%
+    opacity: 0    
+  10%
+    opacity: 0    
+  20%
+    opacity: 0    
+  30%
+    opacity: 0    
+  40%
+    opacity: 0    
+  50%
+    opacity: 0    
+  60%
+    opacity: 1    
+  70%
+    opacity: 1    
+  80%
+    opacity: 1    
+  90%
+    opacity: 0    
+  100%
+    opacity: 0 
+
+@keyframes fade3
+  0%
+    opacity: 0    
+  10%
+    opacity: 0    
+  20%
+    opacity: 0    
+  30%
+    opacity: 0    
+  40%
+    opacity: 0    
+  50%
+    opacity: 0    
+  60%
+    opacity: 0    
+  70%
+    opacity: 0   
+  80%
+    opacity: 0    
+  90%
+    opacity: 1    
+  100%
+    opacity: 1
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/11.png") !important    
+
+.titulo-principal.color-acento-contenido .titulo-principal__numero span
+  color: white
+.img-a 
+  display: block
+  margin: auto
+
+.img-t
+  width: auto
+  height: auto  
+
+.bg1
+  background-image: url("../assets/curso/temas/1.png") 
+  border-radius: 20px
+  background-repeat: no-repeat
+  background-size: cover
+
+.bg2
+  background-color: #E8E1FC
+
+.imgs-flotantes
+  position: relative
+.imgs-flotantes img.img-flotante
+  animation: float5 3.5s ease-in-out infinite alternate
+  position: absolute
+  top: -8%
+  left: -5%
+  width: 900px
+  @media (max-width: 810px)
+    width: 0px
+    left: 1%
+    display: none 
+
+.bg3
+  background-color: #21155C
+  *
+    color: white
+  border-radius: 15px 
+
+@keyframes float5
+  0%
+    transform: translatey(10px)
+
+  100%
+    transform: translatey(0px) 
+
+.bg4
+  background-color: #FFD41C  
+
+.img-a1
+  position: absolute
+  width: 60px
+  top: -24px
+  left: 72% 
+.img-a2
+  position: absolute
+  width: 60px
+  bottom: -24px
+  left: 10%                            
+      
+.bg5
+  background-color: #FFF8D9  
+
+.list 
+  width: 100%
+  display: flex !important
+  &__item 
+    &__bulletNumber 
+      position: relative
+      width: 50px
+      height: 50px
+      margin-right: 1rem
+      text-align: center
+      border-radius: 50%
+      background-color: #339CE9
+      span 
+        color: red
+        font-weight: 700
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+        font-size: 30px
+      
+    
+    &__number 
+      position: relative
+      margin-right: 0.5rem
+      span 
+        color:#BF3976
+        font-size: 13pt
+        font-weight: 700
+        line-height: 1.2
+      
+    
+    &__icon 
+      position: relative
+      width: 30px
+      margin-right: 0.65rem
+      margin-top: 0px
+      img 
+        width: 30px
+        vertical-align: middle
+        
+  &__txt 
+    p:first-child,
+    h4:first-child 
+      margin-top: 2px  
+
+.bg6
+  background-color: #F9F6FF
+  border-radius: 0 10px 10px 0  
+
+.horizontal-scroll
+  align-items: stretch !important 
+
+.bg7
+  background-color: #F9F8FE
+
+.bg8
+  background-color: #E8E1FC
+  border-radius: 10px
+  margin-left: 1px
+  margin-right: 1px
+  display: flex
+  justify-content: center
+  align-items: center 
+
+.tarjeta
+  &--azul
+    background-image: url('../assets/curso/temas/19.png') 
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center 
+  &--gris
+    background-image: url('../assets/curso/temas/39.png') 
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center      
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  @media (max-width: 810px)
+    width: 35px
+    height: 35px
+  @media (max-width: $bp-max-sm )
+    width: 25px
+    height: 25px  
+.slyder-a__bullets__item    
+  @media (max-width: 810px)
+    width: 10px
+    height: 10px  
+    margin: 0 3px   
+  @media (max-width: $bp-max-sm)
+    width: 10px
+    height: 10px  
+    margin: 0 3px   
+
+.slyder-a__bullets__item--active
+  background-color: #21155C !important
+  border: 1px solid #21155C
+.slyder-a__bullets__item
+  background-color: #A399C4
+  border: 1px solid #A399C4       
+
+
+.color-v
+  color: #21155C
+  font-size: 12px 
+
+.bg9
+  background-color: #FFF1B3
+  border-radius: 15px                   
+
+.bg10
+  background-color: #FFEA8E
+  border-radius: 15px   
+
+.tarjeta.color-acento-botones
+  background-color: #E8E1FC
+  h4,p
+    color: #12263F
+
+.tabs-a__tab
+  background-color: #E8E8E8
+
+.tabs-a.color-acento-contenido .tabs-a__tab__selected
+  .tabs-a__tab__text
+    color: white 
+    
+.tabs-b__tab
+  background-color: #F9F6FF
+  border-bottom: 0px solid
+  border-right: 2px solid #D1C3FA
+
+.tabs-b.color-acento-contenido .tabs-b__tab--active
+  background-color: #FFFFFF !important 
+
+.bg11
+  background-color: #FFF8D9
+  border-radius: 20px          
+
+.color-v1
+  color: #764CF0
+
+.tabla-a thead
+  border-top: 0px solid
+  background-color: #21155C
+  color: white
+
+.bgt1
+  background-color: #E8E1FC
+  color: #12263F
+.bgt2
+  background-color: #FFFFFF
+
+.bg12
+  background-color: #CCFFF0   
+
+.boton.color-acento-botones
+  *
+    color: $color-sistema-texto
+
+.brad
+  border-radius: 20px      
+
+.bg13
+  background-color: #FFE268
+
+.imagen-absolute
+  position: absolute
+  bottom: 0
+  left: 0
+  transform: translateX(-5%) translateY(0%)
+  @media (max-width: $bp-max-lg)
+    width: inherit    
+  @media (max-width: 1300px)    
+    transform: translateX(-10%) translateY(-10%) 
+  @media (max-width: 810px)    
+    transform: translateX(70%) translateY(-3%) 
+  @media (max-width: 428px)    
+    display: none    
+.up
+  z-index: 2 
+
+.bloque-texto-g.color-secundario
+  background-color: #CED371
+
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: rgba(255, 247, 230, 1) 
+  
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
+
+.bg14
+  background-color:#764CF0 !important
+  *
+    color: white                
+.bg15
+  background-color:#FFD41C !important 
+
+.pasos-a.color-acento-contenido .pasos-a__circle div
+  color: white                    
+
+.tarjeta.color-acento-contenido1 
+  background-color: #FFFCEC
+  border-radius: 20px  
+
+  
+.br 
+  border-right: 1px solid #21155C  
+
+  @media (max-width: $bp-max-md)
+    border-right: 0px solid
+
+.bg16
+  background-color: #F9F6FF    
