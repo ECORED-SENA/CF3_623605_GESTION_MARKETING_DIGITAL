@@ -38,7 +38,7 @@
         .row.justify-content-center.align-items-start
           .col-lg-8.mb-4.mb-lg-0
             h4 Sistemas de información 
-            p.mb-0 El sistema de información (SI) es una serie de elementos que se relacionan y se integran (hardware y software) para recopilar, almacenar y procesar información que apoye la toma de decisiones. Adicionalmente, los sistemas de información apoyan el control y supervisión de la misma      
+            p.mb-0 El sistema de información (SI) es una serie de elementos que se relacionan y se integran (<i>hardware</i> y <i>software</i>) para recopilar, almacenar y procesar información que apoye la toma de decisiones. Adicionalmente, los sistemas de información apoyan el control y supervisión de la misma      
           .col-lg-3.col-6
             figure
               img(src="@/assets/curso/temas/37.png", alt="alt")
@@ -52,7 +52,9 @@
     .row.justify-content-center.align-items-center.mb-5           
       .col-lg-10.bg11.p-5(data-aos="fade-right")
         h4(data-aos="fade-down") Investigación de mercados cualitativa
-        p(data-aos="fade-down").mb-5 Se denomina investigación de mercados cualitativa al conjunto de técnicas que se utilizan para obtener una visión general del comportamiento y la percepción de las personas sobre un tema en particular. Según Báez y Pérez (2014) la investigación cualitativa es:
+        p(data-aos="fade-down") Se denomina investigación de mercados cualitativa al conjunto de técnicas que se utilizan para obtener una visión general del comportamiento y la percepción de las personas sobre un tema en particular. Según Báez y Pérez (2014) la investigación cualitativa es:
+     
+        p(data-aos="fade-down").mb-5 El conjunto de todas las cosas que se hacen para seguir la pista a los mercados y encontrar los rasgos que distinguen a las personas (cliente, consumidor, organización…) y a las cosas (productos, bienes, servicios, sectores de actividad) sus propiedades y atributos, sean estos naturales y/o adquiridos.        
         .row.justify-content-center.align-items-center         
           .col-lg-10
             .tabla-a.color-acento-botones.mb-5 
@@ -107,7 +109,7 @@
               table
                 thead
                   tr
-                    th(colspan='2') Investigación de mercados cualitativa
+                    th(colspan='2') Investigación de mercados cuantitativa
                 tbody
                   tr.bgt1
                     td.text-bold.text-center Ventajas
@@ -157,7 +159,7 @@
             
     Separador 
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 2.2 Modelo de negocio
+      h2 2.2 Técnicas de recolección de información     
     .row.justify-content-center.align-items-center.mb-2           
       .col-lg-3.my-3 
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/38.png', alt='')   
@@ -246,14 +248,14 @@
             img.img-a.img-t(src='@/assets/curso/temas/45.png', alt='')
         .row.justify-content-center.align-items-start
           .col-lg-7.mb-4.mb-md-0
-            h4.mb-3 Entrevistas no estructurada 
+            h4.mb-3 Entrevistas no estructuradas 
             p Son más flexibles e informales que la estructurada y semiestructurada. Se planifica con la finalidad que pueda adaptarse completamente a las condiciones del entrevistado sin perder su foco. Los participantes (entrevistador y entrevistados) pueden profundizar los conceptos y ampliar las respuestas, hasta el punto de desviarse del plan original. En este proceso, se pueden presentar “lagunas” en la información obtenida que puede variar de un entrevistador a otro.
           .col-lg-4
             img.img-a.img-t(src='@/assets/curso/temas/46.png', alt='')
         .row.justify-content-center.align-items-start
           .col-lg-7.mb-4.mb-md-0
             h4.mb-3 Encuesta 
-            p Utilizada para obtener información de un grupo de individuos sobre diversos temas mediante una serie de preguntas organizadas. A diferencia de la entrevista, no requieren de una interacción directa entre el entrevistador y el entrevistado, incluso, puede desarrollarse telefónicamente y online. Puede tener preguntas abiertas y cerradas, así:
+            p Utilizada para obtener información de un grupo de individuos sobre diversos temas mediante una serie de preguntas organizadas. A diferencia de la entrevista, no requieren de una interacción directa entre el entrevistador y el entrevistado, incluso, puede desarrollarse telefónicamente y <i>online</i>. Puede tener preguntas abiertas y cerradas, así:
             ul.lista-ul.ps-1
               li 
                 i.fas.fa-check.color-v1
@@ -280,7 +282,7 @@
             img.img-a.img-t(src='@/assets/curso/temas/47.png', alt='')
         .row.justify-content-center.align-items-start
           .col-lg-7.mb-4.mb-md-0
-            h4.mb-3 Focus Group 
+            h4.mb-3 <i>Focus Group</i> 
             p Se desarrolla mediante un encuentro presencial o virtual con un grupo de personas y permite conocer de forma rápida lo que piensan los participantes del tema objeto de investigación, por lo general estudios de mercado. Se caracteriza porque:
             ul.lista-ul.ps-1
               li 
@@ -394,9 +396,9 @@
 
     .row.justify-content-center.align-items-center.mb-5           
       .col-lg-10.bg2.p-4.mb-4.brad(data-aos="flip-down")
-        p(data-aos="fade-down").mb-0 #[b Dirección de la respuesta:] La cual puede ser negativa o positiva o neutral.
+        p(data-aos="fade-down").mb-0 #[b Dirección de la respuesta:] la cual puede ser negativa o positiva o neutral.
       .col-lg-10.bg2.p-4.brad(data-aos="flip-down")            
-        p(data-aos="fade-down").mb-0 #[b Intensidad de la respuesta:] Que puede ser alta si la persona está convencida y que su actitud o comportamiento es justificado o baja si la persona no piensa así.                                                                       
+        p(data-aos="fade-down").mb-0 #[b Intensidad de la respuesta:] que puede ser alta si la persona está convencida y que su actitud o comportamiento es justificado o baja si la persona no piensa así.                                                                       
     p(data-aos="fade-down").mb-5 Para construir una encuesta con preguntas y respuestas basadas en la escala de Likert, se debe llevar a cabo el siguiente procedimiento:
 
     .row.justify-content-center.align-items-center.mb-5           
@@ -485,7 +487,7 @@
             th Muy de acuerdo
             th De acuerdo
             th Ni de acuerdo ni en desacuerdo
-            td En desacuerdo                 
+            th En desacuerdo                 
             th Muy en desacuerdo
         tbody
           tr.text-center 

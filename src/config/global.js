@@ -1,6 +1,6 @@
 export default {
   global: {
-    componenteFormativo: 'Comunidades virtuales ',
+    componenteFormativo: 'Comunidades virtuales para el <i>marketing</i>',
     descripcionCurso:
       'Una comunidad virtual es un espacio digital que congrega diferentes públicos con propósitos diversos, tal como el aprendizaje, los negocios, la comunicación, el entretenimiento, entre otros. Para este programa, es importante identificar las interacciones y los tipos de personas que hacen parte de estas comunidades para proponer estrategias que apoyen su fortalecimiento y su dinamización.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
@@ -224,7 +224,7 @@ export default {
       tema: '2. Recolección de información',
       referencia:
         'Rock Content. (2018). <i>Investigación de marketing y de mercado: ¿cuál es la mejor estrategia para mi negocio?</i> ',
-      tipo: 'Página web',
+      tipo: 'Página <i>web</i>',
       link:
         'https://rockcontent.com/es/blog/investigacion-de-marketing-y-de-mercados/',
     },
@@ -247,7 +247,7 @@ export default {
       tema: '4. Palabras claves (<i>keywords</i>)',
       referencia:
         'Rock Content. (2021). <i>¿Qué es una keyword y cómo influye en el SEO?</i> ',
-      tipo: 'Página web',
+      tipo: 'Página <i>web</i>',
       link: 'https://rockcontent.com/es/blog/keywords/',
     },
   ],
@@ -260,12 +260,12 @@ export default {
     {
       termino: '<em>Fanpage</em>',
       significado:
-        'también llamada “<i>página de fans</i>”, es la plataforma que ofrece Facebook a las empresas, marcas u organizaciones para visibilizar y conectar con los usuarios. A diferencia de un perfil, una fan page no tiene límite de fans y es posible tener acceso a la información estadística de la página.',
+        'también llamada “<i>página de fans</i>”, es la plataforma que ofrece Facebook a las empresas, marcas u organizaciones para visibilizar y conectar con los usuarios. A diferencia de un perfil, una <i>fan page</i> no tiene límite de fans y es posible tener acceso a la información estadística de la página.',
     },
     {
       termino: '<em>Feed</em>',
       significado:
-        'también conocido como RSS (<i>Really Simple Syndication</i>), es el formato en el que se comparte el contenido de los blogs.',
+        'también conocido como RSS (<i>Really Simple Syndication</i>), es el formato en el que se comparte el contenido de los <i>blogs</i>.',
     },
     {
       termino: 'Influenciador',
@@ -280,17 +280,17 @@ export default {
     {
       termino: 'KPI',
       significado:
-        'siglas de <i>Key Performance Indicator</i>; son indicadores y herramientas de medición de los cuales se obtiene información útil del nivel de rendimiento de una campaña o estrategia de social media marketing.',
+        'siglas de <i>Key Performance Indicator</i>; son indicadores y herramientas de medición de los cuales se obtiene información útil del nivel de rendimiento de una campaña o estrategia de <i>social media marketing</i>.',
     },
     {
       termino: '<em>Marketing</em> de contenidos',
       significado:
-        'estrategias de <i>marketing</i> enfocadas en ofrecer contenidos útiles y de ayuda a los usuarios principalmente a través del blog y del social media <i>marketing</i>.',
+        'estrategias de <i>marketing</i> enfocadas en ofrecer contenidos útiles y de ayuda a los usuarios principalmente a través del <i>blog</i> y del <i>social media marketing</i>.',
     },
     {
       termino: 'Metadatos ',
       significado:
-        'código que se estructura al inicio de un sitio web para clasificar el tipo de información que describe a su vez otro elemento del cual se puede obtener información detallada de sus características.',
+        'código que se estructura al inicio de un sitio <i>web</i> para clasificar el tipo de información que describe a su vez otro elemento del cual se puede obtener información detallada de sus características.',
     },
     {
       termino: 'Reputación <em>online</em>',
@@ -300,7 +300,7 @@ export default {
     {
       termino: '<em>Retargeting</em>',
       significado:
-        'una nueva técnica de publicidad que consiste en mostrar al usuario productos afines, una especie de filtro personalizado de productos y servicios en los que se está más receptivo a recibir información. Este tipo de prácticas se hacen posibles si, y solo si, los usuarios admiten voluntariamente que aceptan cookies cuando navegan en determinado sitio.',
+        'una nueva técnica de publicidad que consiste en mostrar al usuario productos afines, una especie de filtro personalizado de productos y servicios en los que se está más receptivo a recibir información. Este tipo de prácticas se hacen posibles si, y solo si, los usuarios admiten voluntariamente que aceptan <i>cookies</i> cuando navegan en determinado sitio.',
     },
     {
       termino: 'Segmentar',
@@ -459,7 +459,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Yuli Marcela Gomez Tarazona',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

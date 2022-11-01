@@ -10,10 +10,10 @@
       .col-lg-5 
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/83.png', alt='')
       .col-lg-7
-        p(data-aos="fade-down").mb-3 Palabra clave es la traducción al español del vocablo inglés <i>Keyword</i>, que en la programación es definida como un término para promover el intercambio de información entre las páginas web y los usuarios en internet. Las palabras clave (<i>Keywords</i>) son el principal elemento para iniciar una investigación de los hábitos y comportamiento de los usuarios digitales; son términos individuales (palabras) o compuestos (frases) que el usuario utiliza para encontrar información relevante en la web a través de un motor de búsqueda, también se utiliza para buscar respuestas a preguntas frecuentes y solucionar problemas. 
-        .bg5.p-5(data-aos="fade-left") En una estrategia de <i>Keywords</i> o palabras clave, debe identificarse qué buscan los usuarios, cómo lo buscan y qué hacen cuando lo encuentran, esto permitirá elegir las palabras claves adecuadas para incorporarlas como parte de la estrategia de marketing digital. Las palabras clave deben ser clasificadas, organizadas y optimizadas para que luego se incluyan en el sitio web o aplicación. 
+        p(data-aos="fade-down").mb-3 Palabra clave es la traducción al español del vocablo inglés <i>Keyword</i>, que en la programación es definida como un término para promover el intercambio de información entre las páginas <i>web</i> y los usuarios en internet. Las palabras clave (<i>Keywords</i>) son el principal elemento para iniciar una investigación de los hábitos y comportamiento de los usuarios digitales; son términos individuales (palabras) o compuestos (frases) que el usuario utiliza para encontrar información relevante en la <i>web</i> a través de un motor de búsqueda, también se utiliza para buscar respuestas a preguntas frecuentes y solucionar problemas. 
+        .bg5.p-5(data-aos="fade-left") En una estrategia de <i>Keywords</i> o palabras clave, debe identificarse qué buscan los usuarios, cómo lo buscan y qué hacen cuando lo encuentran, esto permitirá elegir las palabras claves adecuadas para incorporarlas como parte de la estrategia de <i>marketing</i> digital. Las palabras clave deben ser clasificadas, organizadas y optimizadas para que luego se incluyan en el sitio <i>web</i> o aplicación. 
 
-    p(data-aos="fade-down").mb-5 Con una correcta selección de las palabras clave, es posible que la empresa pueda posicionarse en internet a través de su sitio web y aparecer en los primeros resultados de los buscadores. Entre otras ventajas se pueden indicar las siguientes:
+    p(data-aos="fade-down").mb-5 Con una correcta selección de las palabras clave, es posible que la empresa pueda posicionarse en internet a través de su sitio <i>web</i> y aparecer en los primeros resultados de los buscadores. Entre otras ventajas se pueden indicar las siguientes:
 
     .row.justify-content-center.mb-5
       .col-md-6.col-lg.mb-5.mb-lg-0
@@ -33,9 +33,9 @@
           img(src='@/assets/curso/temas/86.svg', style="width: 102px")
           .tarjeta.color-acento-contenido1
             .p-4.text-center
-              p Así mismo, vinculan el sitio web a un tema específico. 
+              p Así mismo, vinculan el sitio <i>web</i> a un tema específico. 
 
-    p(data-aos="fade-down").mb-5 Con una buena investigación acerca de las <i>Keywords</i>, el sitio web puede posicionarse “orgánicamente”; es decir, estar en los primeros lugares como resultado de todas las búsquedas de los usuarios y conseguir usuarios correctos. 
+    p(data-aos="fade-down").mb-5 Con una buena investigación acerca de las <i>Keywords</i>, el sitio <i>web</i> puede posicionarse “orgánicamente”; es decir, estar en los primeros lugares como resultado de todas las búsquedas de los usuarios y conseguir usuarios correctos. 
 
     .row.justify-content-center.align-items-center.my-5           
       .col-lg-10.bg2.p-4(data-aos="fade-left")
@@ -57,7 +57,7 @@
 
     Separador 
     #t_4_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 4.1 Uso de <i>Keywords</i> en el marketing digital 
+      h2 4.1 Uso de <i>Keywords</i> en el <i>marketing</i> digital 
 
     .row.justify-content-center.align-items-center.mb-5           
       .col-lg-5 
@@ -80,7 +80,7 @@
                   i.fas.fa-check.color-v1
                   p.mb-0 Vehículos usados en Colombia.
 
-    p(data-aos="fade-down") Cada una de esas frases puede considerarse como palabra clave. Si una persona es la dueña del concesionario que vende vehículos usados, querrá que su negocio sea fácilmente encontrado por sus clientes potenciales; por tanto, deberá incluir en el contenido del sitio web las palabras o frases que comúnmente usarían las personas para encontrarlos, es aquí, donde se crea la estrategia de palabras clave.
+    p(data-aos="fade-down") Cada una de esas frases puede considerarse como palabra clave. Si una persona es la dueña del concesionario que vende vehículos usados, querrá que su negocio sea fácilmente encontrado por sus clientes potenciales; por tanto, deberá incluir en el contenido del sitio <i>web</i> las palabras o frases que comúnmente usarían las personas para encontrarlos, es aquí, donde se crea la estrategia de palabras clave.
     p(data-aos="fade-down").mb-5 Entre los tipos de palabras clave hay, se tienen:
 
     .row.justify-content-center.align-items-center.mb-5           
@@ -198,8 +198,8 @@
         .row.justify-content-center.align-items-start.p-3
           .col-lg-8.mb-4.mb-md-0
             h4.mb-3 Semrush 
-            p Esta plataforma de gestión de visibilidad online que permite gestionar desde marketing de contenidos a las listas de relacionamiento, también incluye una sección específica de búsqueda de <i>Keywords</i> para realizar un estudio de palabras claves.  Ofrece una visión general de las palabras clave y después se puede acceder al <i>Keyword</i> Magic Tool, su buscador de términos en los que se muestran las variaciones de palabras clave, así como el volumen de búsqueda, la tendencia, el CPC (costo por clic). 
-            p Su amplia base de datos garantiza una extracción de términos importantes, permite incluir o excluir palabras, establecer el número de palabras dentro de la búsqueda -para determinar si nos interesa más términos head tail, middle o long tail-, establecer un determinado rango de volumen.  Así resulta mucho más sencillo escoger los grupos por volumen de búsquedas. 
+            p Esta plataforma de gestión de visibilidad <i>online</i> que permite gestionar desde <i>marketing</i> de contenidos a las listas de relacionamiento, también incluye una sección específica de búsqueda de <i>Keywords</i> para realizar un estudio de palabras claves.  Ofrece una visión general de las palabras clave y después se puede acceder al <i>Keyword</i> Magic Tool, su buscador de términos en los que se muestran las variaciones de palabras clave, así como el volumen de búsqueda, la tendencia, el CPC (costo por clic). 
+            p Su amplia base de datos garantiza una extracción de términos importantes, permite incluir o excluir palabras, establecer el número de palabras dentro de la búsqueda -para determinar si nos interesa más términos <i>head tail, middle o long tail-</i>, establecer un determinado rango de volumen.  Así resulta mucho más sencillo escoger los grupos por volumen de búsquedas. 
             p Nota: para acceder a esta herramienta se requiere generar la suscripción. 
           .col-lg-4
             img.img-a.img-t(src='@/assets/curso/temas/94.png', alt='')   

@@ -56,7 +56,7 @@
               figure.mb-3
                 img.img-a.img-t(src='@/assets/curso/temas/7.svg').mx-auto
               
-              p.mb-5 #[b Según Pazos, Pérez y Salinas (2002)], los “entornos basados en web que agrupan personas relacionadas con una temática específica que además de las listas de distribución (primer nodo de la comunidad virtual) comparten documentos y recursos”.
+              p.mb-5 #[b Según Pazos, Pérez y Salinas (2002)], los “entornos basados en <i>web</i> que agrupan personas relacionadas con una temática específica que además de las listas de distribución (primer nodo de la comunidad virtual) comparten documentos y recursos”.
               img.img-a1(src='@/assets/componentes/circulo.svg')
               img.img-a2(src='@/assets/componentes/rectangulo.svg') 
 
@@ -76,7 +76,7 @@
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 1.1 Tipos de comunidades virtuales 
 
-    p(data-aos="fade-down") Todas las personas tienen la necesidad de pertenecer a un grupo en el cual sean reconocidos y aceptados, según sus habilidades, valores o características. Hoy, gracias a las TIC, esta participación se hace a través de las comunidades virtuales, donde las afinidades y relacionamientos se dan en los canales digitales, bien sea para el aprendizaje, la práctica, la investigación y en este caso, para el marketing digital.
+    p(data-aos="fade-down") Todas las personas tienen la necesidad de pertenecer a un grupo en el cual sean reconocidos y aceptados, según sus habilidades, valores o características. Hoy, gracias a las TIC, esta participación se hace a través de las comunidades virtuales, donde las afinidades y relacionamientos se dan en los canales digitales, bien sea para el aprendizaje, la práctica, la investigación y en este caso, para el <i>marketing</i> digital.
     
     p(data-aos="fade-down").mb-5 Hay varias clasificaciones de comunidades virtuales, entre ellas, según Polo (1998), citado por Fandos y González (2009):
 
@@ -287,7 +287,7 @@
       h2 1.2 Plataformas para la creación de comunidades virtuales 
 
     p(data-aos="fade-down").mb-5 Una comunidad virtual puede desarrollarse en diferentes plataformas, algunas de ellas son independientes, otras gratuitas o de pago. Algunas comunidades se desarrollan en escenarios conocidos como las redes sociales, las cuales pueden potenciar el relacionamiento con sus herramientas tradicionales de comunicación, la cultura de colaboración, de compartir, de aceptación y otros elementos que conllevan el buen relacionamiento de la comunidad. 
-
+    p(data-aos="fade-down").mb-5 Entre las principales plataformas para la creación de comunidades virtuales, se encuentran las siguientes:
     TabsA.color-acento-contenido.mb-5
       .tarjeta.color-acento-botones.p-4(titulo="Facebook Groups")
         .row
@@ -317,7 +317,7 @@
         .row
           .col-lg-8.mb-4.mb-lg-0
             h4 BuddyPress 
-            p Es un plugin gratuito de WordPress que integra componentes sociales como comentarios, botones de me gusta, compartir, colaborar, entre otros, para el sitio web corporativo. Es de uso gratuito y puede ser un complemento del sitio. 
+            p Es un plugin gratuito de WordPress que integra componentes sociales como comentarios, botones de me gusta, compartir, colaborar, entre otros, para el sitio <i>web</i> corporativo. Es de uso gratuito y puede ser un complemento del sitio. 
           .col-lg-4
             figure
               img(src='@/assets/curso/temas/31.png', style="width: 350px").m-auto   
@@ -325,7 +325,7 @@
         .row
           .col-lg-8.mb-4.mb-lg-0
             h4 Question Pro Communities 
-            p Es una plataforma integral basada en la nube para la gestión de comunidades online. Ofrece la administración de paneles de clientes, foros, encuestas y gamificaciones. También permite que las marcas diseñen una comunidad personalizada, crear informes profesionales de los comentarios e integrarse a un CRM. 
+            p Es una plataforma integral basada en la nube para la gestión de comunidades <i>online</i>. Ofrece la administración de paneles de clientes, foros, encuestas y gamificaciones. También permite que las marcas diseñen una comunidad personalizada, crear informes profesionales de los comentarios e integrarse a un CRM. 
           .col-lg-4
             figure
               img(src='@/assets/curso/temas/32.png', style="width: 350px").m-auto   

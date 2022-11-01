@@ -1,1 +1,1 @@
-module.exports = 'Comunidades virtuales '
+module.exports = 'Comunidades virtuales para el marketing'

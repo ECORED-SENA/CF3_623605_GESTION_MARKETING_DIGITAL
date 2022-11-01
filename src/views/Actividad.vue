@@ -10,8 +10,8 @@
             img(src="@/assets/template/falso-verdadero.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Implementación de las comunidades virtuales para el marketing
-        p.mb-4 Aplicar los conocimientos de la comunicación virtual en las estrategias de marketing de las organizaciones, mediante la aplicación de conocimientos previos.
+          h2 Implementación de las comunidades virtuales para el <i>marketing</i>
+        p.mb-4 Aplicar los conocimientos de la comunicación virtual en las estrategias de <i>marketing</i> de las organizaciones, mediante la aplicación de conocimientos previos.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
