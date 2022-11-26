@@ -15,7 +15,7 @@
           .col-lg-8.mb-4.mb-lg-0
             h4 Datos 
             p.mb-0 Se considera dato a toda información específica y concreta acerca de un elemento, hecho, o situación que permite analizarlos, estudiarlos, diagnosticarlos y conocerlos. Por ejemplo: crecimiento económico del 3 %, donde 3 % es la expresión que debe analizarse en relación con el contexto “crecimiento económico”.      
-          .col-lg-3.col-6
+          .col-lg-4
             figure
               img(src="@/assets/curso/temas/34.png", alt="alt")
       .py-4.py-md-5(titulo="Información" :icono="require('@/assets/curso/temas/33.svg')")
@@ -23,7 +23,7 @@
           .col-lg-8.mb-4.mb-lg-0
             h4 Información 
             p.mb-0 Se denomina información a la presentación o agrupación de los datos significativos y en conjunto describen eventos, sucesos o eventos y con su procesamiento se puede elaborar un mensaje con sentido crítico.      
-          .col-lg-3.col-6
+          .col-lg-4
             figure
               img(src="@/assets/curso/temas/35.png", alt="alt")
       .py-4.py-md-5(titulo="Conocimiento" :icono="require('@/assets/curso/temas/33.svg')")
@@ -31,7 +31,7 @@
           .col-lg-8.mb-4.mb-lg-0
             h4 Conocimiento 
             p.mb-0 Es el resultado de analizar, procesar, comparar y combinar los datos convertidos en información confiable de acuerdo con los intereses de la empresa. De esta forma, el sujeto o empresa pueden argumentar el manejo de la información.      
-          .col-lg-3.col-6
+          .col-lg-4
             figure
               img(src="@/assets/curso/temas/36.png", alt="alt")
       .py-4.py-md-5(titulo="Sistemas de información" :icono="require('@/assets/curso/temas/33.svg')")
@@ -313,13 +313,13 @@
     p(data-aos="fade-down").mb-5 La recolección de información varía según el tipo de investigación que se esté desarrollando y las técnicas establecidas para tal fin; es así que, a continuación, se destacan los cuestionarios y las escalas de actitudes como dos herramientas de relevancia para la administración de la información que se obtiene:
 
     .row.justify-content-start.align-items-center.mb-5           
-      .col-lg-5
+      .col-auto
         .list.bg6(data-aos="fade-down")
           .list__item
             .list__item__icon
               img(src='@/assets/curso/temas/v.svg', alt='')
           .list__txt
-            h3.mb-0.mt-1 Los cuestionarios
+            h3.mb-0.mt-1.pe-2 Los cuestionarios
 
     p(data-aos="fade-down").mb-5 Los cuestionarios contienen un conjunto de preguntas para obtener, procesar y analizar información de la muestra o segmento de la población seleccionada. Este instrumento se utiliza mucho en la investigación cuantitativa de mercados, pues los datos pueden ser exactos para una correcta medición.
     
@@ -375,13 +375,13 @@
                         i.fas.fa-file-download
 
     .row.justify-content-start.align-items-center.mb-5           
-      .col-lg-5
+      .col-auto
         .list.bg6(data-aos="fade-down")
           .list__item
             .list__item__icon
               img(src='@/assets/curso/temas/v.svg', alt='')
           .list__txt
-            h3.mb-0.mt-1 Las escalas de actitudes
+            h3.mb-0.mt-1.pe-2 Las escalas de actitudes
 
     .row.justify-content-center.align-items-center.mb-2           
       .col-lg-3.my-3 
@@ -402,7 +402,7 @@
     p(data-aos="fade-down").mb-5 Para construir una encuesta con preguntas y respuestas basadas en la escala de Likert, se debe llevar a cabo el siguiente procedimiento:
 
     .row.justify-content-center.align-items-center.mb-5           
-      .col-lg-10.bg11(data-aos="fade-right") 
+      .col-lg-10.bg11.sha(data-aos="fade-right") 
         .row.justify-content-center.align-items-end        
           .col-lg-7.p-5
             ul.lista-ul
@@ -425,7 +425,7 @@
                 i.fas.fa-check.color-v1
                 p.mb-0 Construir la escala final con base a los ítems seleccionados.               
           .col-lg-4.p-0    
-            img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/53.svg', alt='')
+            img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/53.png', alt='')
 
     p(data-aos="fade-down").mb-5 Algunas de las alternativas que se presentan en una escala Likert, son:  
 

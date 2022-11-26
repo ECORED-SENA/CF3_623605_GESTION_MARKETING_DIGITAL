@@ -32,10 +32,10 @@
 
     p(data-aos="fade-down").mb-5 Con base en la interacción y el intercambio de opiniones que se producen entre las diferentes personas que conforman una comunidad, algunos autores la definen así:
 
-    .row.justify-content-center.align-items-center        
+    .row.justify-content-center.align-items-center.text-center        
       .col-lg-10     
-        .row.justify-content-center.align-items-stretch.mb-5           
-          .col-lg-4(data-aos="fade-left")
+        .row.justify-content-center.align-items-stretch.mb-4           
+          .col-lg-4.my-3(data-aos="fade-left")
             .tarjeta.bg4.p-4.h-100.position-relative
               figure.mb-3
                 img.img-a.img-t(src='@/assets/curso/temas/5.svg').mx-auto
@@ -43,7 +43,7 @@
               p #[b Jiménez y Martínez (2 002, 29)] hacen referencias a ellas como “la utilización de un mismo espacio para compartir valores, lenguaje, experiencias y un propósito común”. 
               img.img-a1(src='@/assets/componentes/circulo.svg')
               img.img-a2(src='@/assets/componentes/rectangulo.svg')    
-          .col-lg-4(data-aos="flip-down")
+          .col-lg-4.my-3(data-aos="flip-down")
             .tarjeta.bg4.p-4.h-100.position-relative
               figure.mb-3
                 img.img-a.img-t(src='@/assets/curso/temas/6.svg').mx-auto
@@ -51,7 +51,7 @@
               p #[b Mercer (2001)] las comunidades son “grupos de personas que comparten experiencias e intereses (comunes) y que se comunican entre sí para conseguir esos intereses”. 
               img.img-a1(src='@/assets/componentes/circulo.svg')
               img.img-a2(src='@/assets/componentes/rectangulo.svg')  
-          .col-lg-4(data-aos="fade-right")
+          .col-lg-4.my-3(data-aos="fade-right")
             .tarjeta.bg4.p-4.h-100.position-relative
               figure.mb-3
                 img.img-a.img-t(src='@/assets/curso/temas/7.svg').mx-auto
@@ -85,90 +85,97 @@
     p(data-aos="fade-down").mb-5 De otro lado, Hagel y Armstrong (1997) diferencian dos tipos de comunidades, que pueden ser abiertas o cerradas de acuerdo con la normatividad para su ingreso y pertenencia.
 
     .row.justify-content-start.align-items-center.mb-5           
-      .col-lg-5
+      .col-auto
         .list.bg6(data-aos="fade-down")
           .list__item
             .list__item__icon
               img(src='@/assets/curso/temas/v.svg', alt='')
           .list__txt
-            h3.mb-0.mt-1 Comunidades orientadas hacia los usuarios 
+            h3.mb-0.mt-1.pe-2 Comunidades orientadas hacia los usuarios 
 
     p(data-aos="fade-down").mb-5 Las comunidades orientadas hacia los usuarios en las cuales estos definen el tema de la comunidad y establecen las dinámicas propias para su participación así:
 
     SlyderF.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="fade-right")
-      .tarjeta.bg7.p-4.h-100.position-relative
-        figure.mb-3
-          img.img-a.img-t(src='@/assets/curso/temas/9.svg').mx-auto       
-        h4.text-center Gubernamentales 
-        p.text-center Con fines de información al ciudadano o de discusión pública. 
-      .tarjeta.bg7.p-4.h-100.position-relative
-        figure.mb-3
-          img.img-a.img-t(src='@/assets/curso/temas/10.svg').mx-auto       
-        h4.text-center Eclécticas 
-        p.text-center Son mixtas e integran diferentes temas como el ocio, entretenimiento, educación, información, etc. 
-      .tarjeta.bg7.p-4.h-100.position-relative
-        figure.mb-3
-          img.img-a.img-t(src='@/assets/curso/temas/11.svg').mx-auto       
-        h4.text-center De ocio y entretenimiento 
-        p.text-center Incluyen juegos estratégicos, juegos en línea, entretenimiento, actividades generales, etc. 
-      .tarjeta.bg7.p-4.h-100.position-relative
-        figure.mb-3
-          img.img-a.img-t(src='@/assets/curso/temas/12.svg').mx-auto       
-        h4.text-center Profesionales
-        p.text-center Elaboradas por expertos en un tema específico o área profesional definida. Generalmente son creadas por universidades o empresas. 
-      .tarjeta.bg7.p-4.h-100.position-relative
-        figure.mb-3
-          img.img-a.img-t(src='@/assets/curso/temas/13.svg').mx-auto       
-        h4.text-center Geográficas 
-        p.text-center Son grupos o comunidades que tienen un área geográfica común, sector, barrio, zona o región. 
-      .tarjeta.bg7.p-4.h-100.position-relative
-        figure.mb-3
-          img.img-a.img-t(src='@/assets/curso/temas/14.svg').mx-auto       
-        h4.text-center Temáticas 
-        p.text-center Son congregadas por temas de interés específicos. 
-      .tarjeta.bg7.p-4.h-100.position-relative
-        figure.mb-3
-          img.img-a.img-t(src='@/assets/curso/temas/15.svg').mx-auto       
-        h4.text-center Demográficas 
-        p.text-center Son agrupaciones de usuarios específicas e integradas por variables demográficas: indígenas, negritudes, hombres, mujeres, etc.
-        
+      .tarjeta-avatar
+        img(src='@/assets/curso/temas/9.svg' alt='AvatarTop')
+        .tarjeta.bg7.p-4.h-100
+          .p-4.pt-5
+            h4.text-center Gubernamentales 
+            p.text-center Con fines de información al ciudadano o de discusión pública. 
+      .tarjeta-avatar
+        img(src='@/assets/curso/temas/10.svg' alt='AvatarTop')
+        .tarjeta.bg7.p-4.h-100
+          .p-4.pt-5
+            h4.text-center Eclécticas 
+            p.text-center Son mixtas e integran diferentes temas como el ocio, entretenimiento, educación, información, etc.  
+      .tarjeta-avatar
+        img(src='@/assets/curso/temas/11.svg' alt='AvatarTop')
+        .tarjeta.bg7.p-4.h-100
+          .p-4.pt-5
+            h4.text-center De ocio y entretenimiento 
+            p.text-center Incluyen juegos estratégicos, juegos en línea, entretenimiento, actividades generales, etc. 
+      .tarjeta-avatar
+        img(src='@/assets/curso/temas/12.svg' alt='AvatarTop')
+        .tarjeta.bg7.p-4.h-100
+          .p-4.pt-5
+            h4.text-center Profesionales
+            p.text-center Elaboradas por expertos en un tema específico o área profesional definida. Generalmente son creadas por universidades o empresas. 
+      .tarjeta-avatar
+        img(src='@/assets/curso/temas/13.svg' alt='AvatarTop')
+        .tarjeta.bg7.p-4.h-100
+          .p-4.pt-5
+            h4.text-center Geográficas 
+            p.text-center Son grupos o comunidades que tienen un área geográfica común, sector, barrio, zona o región. 
+      .tarjeta-avatar
+        img(src='@/assets/curso/temas/14.svg' alt='AvatarTop')
+        .tarjeta.bg7.p-4.h-100
+          .p-4.pt-5
+            h4.text-center Temáticas 
+            p.text-center Son congregadas por temas de interés específicos. 
+      .tarjeta-avatar
+        img(src='@/assets/curso/temas/15.svg' alt='AvatarTop')
+        .tarjeta.bg7.p-4.h-100
+          .p-4.pt-5
+            h4.text-center Demográficas 
+            p.text-center Son agrupaciones de usuarios específicas e integradas por variables demográficas: indígenas, negritudes, hombres, mujeres, etc.
+
     p(data-aos="fade-down").mb-5 Las orientadas hacia la organización, según los objetivos y áreas de trabajo de la empresa se define el plan de trabajo donde reside la comunidad y se pueden dividir en:
 
-    .row.mb-3.justify-content-center.mb-5
-      .col-12.col-lg-4.mb-3.h-100(data-aos="zoom-in")
+    .row.mb-3.justify-content-center
+      .col-12.col-lg-4.mb-3.h-100.esp(data-aos="zoom-in")
         .row.bg8
-          .col-3.px-0.align-items-center
+          .col-3.px-0.align-items-center.bg8_1
             figure
               img(src='@/assets/curso/temas/16.svg', alt='')
-          .col-9.align-items-center.p-3
+          .col-9.align-items-center.just
             div
-              p.mb-0.text-small #[b Funcionales:] conformadas por un área específica de la organización como puede ser mercadeo, finanzas, deportes, etc.
-      .col-12.col-lg-4.mb-3.h-100(data-aos="zoom-in")
+              p.mb-0 #[b Funcionales:] conformadas por un área específica de la organización como puede ser mercadeo, finanzas, deportes, etc.
+      .col-12.col-lg-4.mb-3.h-100.esp(data-aos="zoom-in")
         .row.bg8
-          .col-3.px-0.align-items-center
+          .col-3.px-0.align-items-center.bg8_1
             figure
-              img(src='@/assets/curso/temas/17.svg', alt='')
-          .col-9.align-items-center.p-3
-            div
-              p.mb-0.text-small #[b Geográficas:] de una zona geográfica cubierta por la organización.
+              img(src='@/assets/curso/temas/16.svg', alt='')
+          .col-9.align-items-center.just
+            div.p-1
+              p.mb-0 #[b Geográficas:] de una zona geográfica cubierta por la organización.
 
-      .col-12.col-lg-4.mb-3.h-100(data-aos="zoom-in")
+      .col-12.col-lg-4.mb-3.h-100.esp(data-aos="zoom-in")
         .row.bg8
-          .col-3.px-0.align-items-center
+          .col-3.px-0.align-items-center.bg8_1
             figure
-              img(src='@/assets/curso/temas/18.svg', alt='')
-          .col-9.align-items-center.p-3
-            div
-              p.mb-0.text-small #[b Verticales:] une a los consumidores de empresas de diferentes ramas de actividad económica o a empresas.
+              img(src='@/assets/curso/temas/16.svg', alt='')
+          .col-9.align-items-center.just
+            div.p-1
+              p.mb-0 #[b Verticales:] une a los consumidores de empresas de diferentes ramas de actividad económica o a empresas.
 
     .row.justify-content-start.align-items-center.mb-5           
-      .col-lg-5
+      .col-auto
         .list.bg6(data-aos="fade-down")
           .list__item
             .list__item__icon
               img(src='@/assets/curso/temas/v.svg', alt='')
           .list__txt
-            h3.mb-0.mt-1 Características comunidades virtuales
+            h3.mb-0.mt-1.pe-2 Características comunidades virtuales
 
     p(data-aos="fade-down").mb-5 Salinas (2003), distingue las siguientes comunidades virtuales que se agrupan acorde a su pertenencia, función, gestión y objetivo:
 
@@ -241,29 +248,29 @@
 
     p(data-aos="fade-down").mb-5 Jonassen, Pech y Wilson (1998) diferencian cuatro tipos de comunidades acorde a su enfoque e impacto de la siguiente forma:
 
-    .row.justify-content-center.align-items-center.mb-5           
+    .row.justify-content-center.align-items-center.mb-4          
       .col-lg-10
-        .row.justify-content-center.align-items-center.mb-5.bg9.p-3(data-aos="fade-left")           
+        .row.justify-content-center.align-items-center.mb-3.bg9.p-3(data-aos="fade-left")           
           .col-auto
             img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/24.svg', alt='')
           .col
             h5 Discurso
             p.mb-0 Comparten intereses con los demás miembros de la comunidad.
 
-        .row.justify-content-center.align-items-center.mb-5.bg9.p-3(data-aos="fade-right")            
+        .row.justify-content-center.align-items-center.mb-3.bg9.p-3(data-aos="fade-right")            
           .col-auto
             img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/25.svg', alt='')
           .col
             h5 Práctica
             p.mb-0 Los grupos aprenden mediante el aprendizaje colaborativo y la práctica en línea. Al interior de la comunidad se evidencian roles específicos.
 
-        .row.justify-content-center.align-items-center.mb-5.bg9.p-3(data-aos="fade-left")            
+        .row.justify-content-center.align-items-center.mb-3.bg9.p-3(data-aos="fade-left")            
           .col-auto
             img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/26.svg', alt='')
           .col
             h5 Construcción de conocimiento
             p.mb-0 Brindan apoyo e intercambio de información en línea.
-        .row.justify-content-center.align-items-center.mb-5.bg10.p-3(data-aos="fade-right")           
+        .row.justify-content-center.align-items-center.mb-3.bg10.p-3(data-aos="fade-right")           
           .col-auto
             img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/27.svg', alt='')
           .col

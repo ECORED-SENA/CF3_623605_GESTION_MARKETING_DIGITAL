@@ -298,12 +298,18 @@
 
 .bg8
   background-color: #E8E1FC
-  border-radius: 10px
-  margin-left: 1px
-  margin-right: 1px
+  border-radius: 0 5px 5px 0
+
+.bg8_1
+  background-color: #26D19E
   display: flex
   justify-content: center
   align-items: center 
+
+.just
+  display: flex
+  justify-content: center
+  align-items: center   
 
 .tarjeta
   &--azul
@@ -319,19 +325,19 @@
 
 .slyder-a__btn--sigt, .slyder-a__btn--atrs
   @media (max-width: 810px)
-    width: 35px
-    height: 35px
+    width: 45px
+    height: 45px
   @media (max-width: $bp-max-sm )
-    width: 25px
-    height: 25px  
+    width: 35px
+    height: 35px  
 .slyder-a__bullets__item    
   @media (max-width: 810px)
-    width: 10px
-    height: 10px  
+    width: 14px
+    height: 14px  
     margin: 0 3px   
   @media (max-width: $bp-max-sm)
-    width: 10px
-    height: 10px  
+    width: 13px
+    height: 13px  
     margin: 0 3px   
 
 .slyder-a__bullets__item--active
@@ -471,7 +477,17 @@
   background-color: #F9F6FF    
 
 .tabs-b__tab
-  filter: grayscale(100%)     
+  filter: grayscale(70%)     
 
 .tabs-b.color-acento-contenido .tabs-b__tab--active
   filter: grayscale(0) !important  
+
+.esp
+  border: 5px solid white
+
+.tabs-a.color-acento-contenido .tabs-a__tab:hover
+  color: white !important       
+
+.sha
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37) 
+

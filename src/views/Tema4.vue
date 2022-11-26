@@ -6,10 +6,10 @@
       .titulo-principal__numero
         span 4
       h1 Palabras clave (<i><i>Keywords</i></i>)
-    .row.justify-content-center.align-items-center.mb-5           
-      .col-lg-5 
+    .row.justify-content-center.align-items-center.mb-4           
+      .col-lg-5.my-3 
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/83.png', alt='')
-      .col-lg-7
+      .col-lg-7.my-3
         p(data-aos="fade-down").mb-3 Palabra clave es la traducción al español del vocablo inglés <i>Keyword</i>, que en la programación es definida como un término para promover el intercambio de información entre las páginas <i>web</i> y los usuarios en internet. Las palabras clave (<i>Keywords</i>) son el principal elemento para iniciar una investigación de los hábitos y comportamiento de los usuarios digitales; son términos individuales (palabras) o compuestos (frases) que el usuario utiliza para encontrar información relevante en la <i>web</i> a través de un motor de búsqueda, también se utiliza para buscar respuestas a preguntas frecuentes y solucionar problemas. 
         .bg5.p-5(data-aos="fade-left") En una estrategia de <i>Keywords</i> o palabras clave, debe identificarse qué buscan los usuarios, cómo lo buscan y qué hacen cuando lo encuentran, esto permitirá elegir las palabras claves adecuadas para incorporarlas como parte de la estrategia de <i>marketing</i> digital. Las palabras clave deben ser clasificadas, organizadas y optimizadas para que luego se incluyan en el sitio <i>web</i> o aplicación. 
 
@@ -18,21 +18,21 @@
     .row.justify-content-center.mb-5
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/84.svg', style="width: 102px")
+          img(src='@/assets/curso/temas/84.svg', style="width: 120px")
           .tarjeta.color-acento-contenido1
-            .p-4.text-center
+            .p-4.text-center.pt-2
               p A medida que se seleccionan palabras clave, crecen las posibilidades de ser fácilmente encontrado en internet.
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/85.svg', style="width: 102px")
+          img(src='@/assets/curso/temas/85.svg', style="width: 120px")
           .tarjeta.color-acento-contenido1
-            .p-4.text-center
+            .p-4.text-center.pt-2
               p Las palabras clave también funcionan como método para encontrar clientes, a partir de los hábitos de búsqueda. 
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/86.svg', style="width: 102px")
+          img(src='@/assets/curso/temas/86.svg', style="width: 120px")
           .tarjeta.color-acento-contenido1
-            .p-4.text-center
+            .p-4.text-center.pt-2
               p Así mismo, vinculan el sitio <i>web</i> a un tema específico. 
 
     p(data-aos="fade-down").mb-5 Con una buena investigación acerca de las <i>Keywords</i>, el sitio <i>web</i> puede posicionarse “orgánicamente”; es decir, estar en los primeros lugares como resultado de todas las búsquedas de los usuarios y conseguir usuarios correctos. 
@@ -59,10 +59,10 @@
     #t_4_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 4.1 Uso de <i>Keywords</i> en el <i>marketing</i> digital 
 
-    .row.justify-content-center.align-items-center.mb-5           
-      .col-lg-5 
+    .row.justify-content-center.align-items-center.mb-4           
+      .col-lg-5.my-3 
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/88.png', alt='')
-      .col-lg-7
+      .col-lg-7.my-3
         p(data-aos="fade-down").mb-3 Como se ha mencionado, las palabras clave son términos simples o compuestos que las personas escriben en un motor de búsqueda cuando quieren encontrar un contenido, producto, marca o información en internet. Por ejemplo, si se quiere encontrar un concesionario que venda carros usados, se puede escribir en el buscador:
         .bg5.p-5(data-aos="fade-left")
           .row.justify-content-center.align-items-center       
@@ -130,13 +130,13 @@
                 p.mb-0 Mejores colegios de Bogotá.
 
     .row.justify-content-start.align-items-center.mb-5           
-      .col-lg-5
+      .col-auto
         .list.bg6(data-aos="fade-down")
           .list__item
             .list__item__icon
               img(src='@/assets/curso/temas/v.svg', alt='')
           .list__txt
-            h3.mb-0.mt-1 Pasos para encontrar las palabras clave adecuadas 
+            h3.mb-0.mt-1.pe-2 Pasos para encontrar las palabras clave adecuadas 
 
     p(data-aos="fade-down").mb-5 Para realizar un proceso disciplinado y responsable de encontrar las palabras clave adecuadas para el negocio, se recomienda el siguiente proceso: 
 
@@ -188,55 +188,55 @@
     .tarjeta.tarjeta--azul.p-5.mb-5(data-aos="fade-left")
       SlyderA(tipo="b")
         .row.justify-content-center.align-items-start.p-3
-          .col-lg-8.mb-4.mb-md-0
+          .col-lg-7.mb-4.mb-md-0
             h4.mb-3 Google <i>Keyword</i> Planner de Adwords (Google Ads) 
             p El buscador de palabras clave de Adwords es uno de los recursos más utilizados a nivel mundial, se trata de una de las herramientas de Google que usa directamente los datos del propio buscador, ofreciendo volúmenes de búsqueda con gran precisión. Ofrece ideas relacionadas con la raíz de la una palabra, frase o dominio, incluso permite afinar las palabras clave, ampliando la búsqueda con términos relacionados, pudiendo introducir desde el principio varias palabras clave. 
 
             p El Google Keyword Planner devolverá un listado, así como el número de búsquedas y valores como el coste del clic estimado en Google Ads y la competencia no orgánica de las palabras clave del listado. En todo momento permite añadir diferentes filtros de métricas, así como seleccionar el país, idioma o la fecha que más se adapte a las necesidades. Debe activarse una campaña de Adwords para conocer y consultar los datos con mayor precisión. 
-          .col-lg-4
+          .col-lg-5
             img.img-a.img-t(src='@/assets/curso/temas/93.png', alt='') 
         .row.justify-content-center.align-items-start.p-3
-          .col-lg-8.mb-4.mb-md-0
+          .col-lg-7.mb-4.mb-md-0
             h4.mb-3 Semrush 
             p Esta plataforma de gestión de visibilidad <i>online</i> que permite gestionar desde <i>marketing</i> de contenidos a las listas de relacionamiento, también incluye una sección específica de búsqueda de <i>Keywords</i> para realizar un estudio de palabras claves.  Ofrece una visión general de las palabras clave y después se puede acceder al <i>Keyword</i> Magic Tool, su buscador de términos en los que se muestran las variaciones de palabras clave, así como el volumen de búsqueda, la tendencia, el CPC (costo por clic). 
             p Su amplia base de datos garantiza una extracción de términos importantes, permite incluir o excluir palabras, establecer el número de palabras dentro de la búsqueda -para determinar si nos interesa más términos <i>head tail, middle o long tail-</i>, establecer un determinado rango de volumen.  Así resulta mucho más sencillo escoger los grupos por volumen de búsquedas. 
             p Nota: para acceder a esta herramienta se requiere generar la suscripción. 
-          .col-lg-4
+          .col-lg-5
             img.img-a.img-t(src='@/assets/curso/temas/94.png', alt='')   
         .row.justify-content-center.align-items-start.p-3
-          .col-lg-8.mb-4.mb-md-0
+          .col-lg-7.mb-4.mb-md-0
             h4.mb-3 Ahrefs 
             p Este buscador de palabras claves funciona mediante la propia base de datos de Ahrefs, considerada como una de las bases de consultas de búsquedas más grandes del mundo. Cada mes actualizan su base de datos con más de 7 mil millones de palabras clave para ofrecer listados precisos.
             p Este buscador permite introducir hasta 10.000 palabras clave para visualizar sus volúmenes de búsqueda, ofrece ideas de palabras clave, en las que se divide entre palabras con los mismos términos, sugerencias de búsqueda, consultas añadidas recientemente, palabras formuladas en preguntas. Desde este buscador se puede elegir entre nueve motores de búsqueda, pudiendo buscar palabras clave para YouTube, Amazon, Bing. Además, su gran variedad de filtros permite filtrar por el volumen de búsquedas, la dificultad para posicionar de las palabras clave, el número de posición. 
-          .col-lg-4
+          .col-lg-5
             img.img-a.img-t(src='@/assets/curso/temas/95.png', alt='')   
         .row.justify-content-center.align-items-start.p-3
-          .col-lg-8.mb-4.mb-md-0
+          .col-lg-7.mb-4.mb-md-0
             h4.mb-3 Keywordtool 
             p El buscador de palabras clave de Adwords es uno de los recursos más utilizados a nivel mundial, se trata de una de las herramientas de Google que usa directamente los datos del propio buscador, ofreciendo volúmenes de búsqueda con gran precisión. Ofrece ideas relacionadas con la raíz de la una palabra, frase o dominio, incluso permite afinar las palabras clave, ampliando la búsqueda con términos relacionados, pudiendo introducir desde el principio varias palabras clave. 
 
             p El Google <i>Keyword</i> Planner devolverá un listado, así como el número de búsquedas y valores como el coste del clic estimado en Google Ads y la competencia no orgánica de las palabras clave del listado. En todo momento permite añadir diferentes filtros de métricas, así como seleccionar el país, idioma o la fecha que más se adapte a las necesidades. Debe activarse una campaña de Adwords para conocer y consultar los datos con mayor precisión. 
-          .col-lg-4
+          .col-lg-5
             img.img-a.img-t(src='@/assets/curso/temas/96.png', alt='')   
         .row.justify-content-center.align-items-start.p-3
-          .col-lg-8.mb-4.mb-md-0
+          .col-lg-7.mb-4.mb-md-0
             h4.mb-3 Ubbersuggest 
             p Es una herramienta sencilla para la búsqueda de palabras clave y que ofrece datos reales y con gran precisión, con la versión gratuita de este buscador de palabras clave se puede realizar hasta tres búsquedas gratuitas de dominios o palabras clave, escoger el país e idioma de la búsqueda. 
             p Al realizar una búsqueda aparecen las diferentes ideas o variaciones de ese término, seguido de su volumen de búsqueda y su CPC estimado, desde sus filtros, con la versión gratuita se pueden filtrar hasta 30 resultados en función del volumen de búsquedas, dificultad. En la parte derecha aparecen los dominios que posicionan por ese término, así como sus visitas estimadas, enlaces o número de veces que se ha compartido esa página. Esta herramienta también permite analizar el tráfico de la competencia y las palabras clave por las que consigue mayor tráfico. Incluso desde el apartado de explorador SEO permite una función de análisis SEO y análisis de enlaces externos (backlinks).
  
-          .col-lg-4
+          .col-lg-5
             img.img-a.img-t(src='@/assets/curso/temas/97.png', alt='')   
         .row.justify-content-center.align-items-start.p-3
-          .col-lg-8.mb-4.mb-md-0
+          .col-lg-7.mb-4.mb-md-0
             h4.mb-3 Soovle 
             p Este buscador de palabras clave permite conocer las diferentes variaciones de términos clave para los diferentes motores de búsqueda que se pueden visualizar en la imagen. Sin embargo, entre sus grandes inconvenientes se encuentra el hecho de que no ofrece volumen de búsqueda u otras métricas relacionadas como el CPC, tendencia de búsqueda o competencia. Se podrá seleccionar rápidamente las diferentes sugerencias para el término que incluyas en el buscador. 
-          .col-lg-4
+          .col-lg-5
             img.img-a.img-t(src='@/assets/curso/temas/98.png', alt='')   
         .row.justify-content-center.align-items-start.p-3
-          .col-lg-8.mb-4.mb-md-0
+          .col-lg-7.mb-4.mb-md-0
             h4.mb-3 Autocompletar de Google 
             p El propio motor de búsqueda de Google y su funcionalidad “autocompletar” nos puede ofrecer muchas pistas sobre sugerencias de búsqueda, y de una forma totalmente gratuita.  Las sugerencias que aparecen al realizar una búsqueda específica, se tratan de variaciones, palabras clave concretas -<i>Keywords</i> middle o long tail- y relacionadas con nuestra búsqueda. El proceso es muy simple, tan solo hay que ir introduciendo las palabras y ver qué es lo que nos sugiere Google. Las sugerencias que muestra Google o que incluso llega a completar, se tratan de las búsquedas y consultas realizadas por otros usuarios. Por otro lado, cada vez que se realice una búsqueda en Google, el propio motor de búsqueda proporciona un listado de palabras clave relacionadas con la búsqueda. Este tipo de sugerencias suelen aparecer en la parte inferior de la página, encima de la paginación. 
-          .col-lg-4
+          .col-lg-5
             img.img-a.img-t(src='@/assets/curso/temas/99.png', alt='')                                                                                                 
 </template>
 

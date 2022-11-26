@@ -6,7 +6,7 @@
       .titulo-principal__numero
         span 3
       h1 <i>Insights</i> y medios digitales
-    .row.justify-content-center.align-items-center.mb-5           
+    .row.justify-content-center.align-items-center         
       .col-lg-3 
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/54.png', alt='')
       .col-lg-9.bg5.p-5(data-aos="fade-left") Un <i>insight</i> es un ítem, clave o elemento que lleva a la solución de un problema, es un dato que nos recomienda cómo resolver la incógnita. No es una solución, es un ítem que dirige hacia esa solución. En el área de los contenidos digitales, los <i>Insights</i> son muy importantes porque facilitan la labor del diseñador al momento de producir una pieza gráfica, o del estratega de <i>marketing</i> para realizar una buena toma de decisión. 
@@ -33,7 +33,7 @@
     .row.mb-3.justify-content-center.mb-5
       .col-12.col-lg-10.mb-3.h-100(data-aos="zoom-in")
         .row.bg8.justify-content-start
-          .col-1.px-0.align-items-center
+          .col-auto.px-0.align-items-center
             figure
               img.img-t(src='@/assets/curso/temas/57.svg', alt='')
           .col-9.align-items-center.p-3
@@ -41,7 +41,7 @@
               p.mb-0 Permiten la creación de estrategias innovadoras o de productos de una forma diferente.   
       .col-12.col-lg-10.mb-3.h-100(data-aos="zoom-in")
         .row.bg8.justify-content-start
-          .col-1.px-0.align-items-center
+          .col-auto.px-0.align-items-center
             figure
               img.img-t(src='@/assets/curso/temas/58.svg', alt='')
           .col-9.align-items-center.p-3
@@ -50,7 +50,7 @@
 
       .col-12.col-lg-10.mb-3.h-100(data-aos="zoom-in")
         .row.bg8.justify-content-start
-          .col-1.px-0.align-items-center
+          .col-auto.px-0.align-items-center
             figure
               img.img-t(src='@/assets/curso/temas/59.svg', alt='')
           .col-9.align-items-center.p-3
@@ -59,7 +59,7 @@
 
       .col-12.col-lg-10.mb-3.h-100(data-aos="zoom-in")
         .row.bg8.justify-content-start
-          .col-1.px-0.align-items-center
+          .col-auto.px-0.align-items-center
             figure
               img.img-t(src='@/assets/curso/temas/60.svg', alt='')
           .col-9.align-items-center.p-3
@@ -67,7 +67,7 @@
               p.mb-0 En la comunicación, le da impacto a los planes y las estrategias de <i>marketing</i>. 
       .col-12.col-lg-10.mb-3.h-100(data-aos="zoom-in")
         .row.bg8.justify-content-start
-          .col-1.px-0.align-items-center
+          .col-auto.px-0.align-items-center
             figure
               img.img-t(src='@/assets/curso/temas/61.svg', alt='')
           .col-9.align-items-center.p-3
@@ -144,10 +144,10 @@
     #t_3_4.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 3.4 Clasificación de herramientas digitales
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-5
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-5.my-3
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/70.png', alt='')      
-      .col-lg-7
+      .col-lg-7.my-3
         p(data-aos="fade-down") Las herramientas digitales, aplicadas a diferentes medios de comunicación y de <i>marketing</i>, permiten superar las barreras del espacio y el tiempo, así mismo permiten que dos o más personas interactúen por medio de mensajes escritos o audiovisuales, en tiempo real o asincrónico. Además, posibilitan el intercambio de información de manera rápida y efectiva. 
 
 
@@ -155,8 +155,20 @@
 
     p(data-aos="fade-down").mb-5 Las herramientas digitales, sin duda alguna, tienen muy variados y numerosos usos de acuerdo con el área de interés o profesional en el cual sean aplicadas. Entre ellas, hay dos grandes grupos principalmente:
 
+    .row.justify-content-center.align-items-center.mb-4
+      .col-sm-8.col-md-10.my-3.d-block.d-lg-none(data-aos="fade-left")
+        img.img-t(src="@/assets/curso/temas/71.png", alt="alt")
+        .bg14.p-4
+          h4.mb-3 1. Soluciones de escritorio
+          p.mb-0 Son aquellas herramientas que se deben instalar localmente en cada computador para que puedan funcionar. Usualmente, requieren de la compra de una licencia o bien pueden instalarse de forma gratuita según la marca. Por ejemplo, Microsoft Office (pago por licencia) y Open Office (gratuito).
+      .col-sm-8.col-md-10.my-3.d-block.d-lg-none(data-aos="fade-right") 
+        img.img-t(src="@/assets/curso/temas/72.png", alt="alt")
+        .bg15.p-4
+          h4.mb-3 2. Soluciones <i>online</i>
+          p.mb-0 Como su nombre lo indica, son aquellas que funcionan a través de un servidor y con conexión a internet. El funcionamiento es similar a las soluciones de escritorio, solo que puedes acceder a ellas desde cualquier lugar siempre que se esté conectado a internet. Por ejemplo: Google Apps (documentos, hojas de cálculo, etc.) u Office <i>online</i> (Word, Excel, etc.). A diferencia de las soluciones de escritorio, las herramientas ofimáticas en línea permiten trabajar de forma colaborativa en un mismo documento, compartir información, etc.
+
     .row.justify-content-center.align-items-end.mb-5
-      .col-xl-6.col-lg-6.col-md-9.col-11.mb-4.mb-xl-0.px-0
+      .col-xl-6.col-lg-6.col-md-9.col-11.mb-4.mb-xl-0.px-0.d-none.d-lg-block 
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
@@ -165,7 +177,7 @@
             h4.mb-3 1. Soluciones de escritorio
             p.mb-0 Son aquellas herramientas que se deben instalar localmente en cada computador para que puedan funcionar. Usualmente, requieren de la compra de una licencia o bien pueden instalarse de forma gratuita según la marca. Por ejemplo, Microsoft Office (pago por licencia) y Open Office (gratuito).
 
-      .col-xl-6.col-lg-6.col-md-9.col-11.mb-4.mb-xl-0.px-0
+      .col-xl-6.col-lg-6.col-md-9.col-11.mb-4.mb-xl-0.px-0.d-none.d-lg-block 
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
