@@ -38,7 +38,7 @@
         .row.justify-content-center.align-items-start
           .col-lg-8.mb-4.mb-lg-0
             h4 Sistemas de información 
-            p.mb-0 El sistema de información (SI) es una serie de elementos que se relacionan y se integran (<i>hardware</i> y <i>software</i>) para recopilar, almacenar y procesar información que apoye la toma de decisiones. Adicionalmente, los sistemas de información apoyan el control y supervisión de la misma      
+            p.mb-0 El sistema de información (SI) es una serie de elementos que se relacionan y se integran (<i>hardware</i> y <i>software</i>) para recopilar, almacenar y procesar información que apoye la toma de decisiones. Adicionalmente, los sistemas de información apoyan el control y supervisión de la misma.      
           .col-lg-3.col-6
             figure
               img(src="@/assets/curso/temas/37.png", alt="alt")
@@ -215,7 +215,7 @@
             ul.lista-ul.ps-1
               li 
                 i.fas.fa-check.color-v1
-                p.mb-0 Se basa en fuentes secundaras.
+                p.mb-0 Se basa en fuentes secundarias.
               li 
                 i.fas.fa-check.color-v1
                 p.mb-0 No es intrusiva, pues no se interactúa de forma directa con la investigación.

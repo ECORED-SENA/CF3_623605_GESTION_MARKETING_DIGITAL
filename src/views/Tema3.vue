@@ -97,7 +97,7 @@
           figure.mb-3
             img.img-t(src='@/assets/curso/temas/64.png').mx-auto
           h5.text-center Freno 
-          p.text-center Es el argumento o barrera que puede bloquear o cambiar la motivación del consumidor . 
+          p.text-center Es el argumento o barrera que puede bloquear o cambiar la motivación del consumidor. 
       .col-lg-3.my-3(data-aos="fade-right")
         .tarjeta.bg13.p-4.h-100
           figure.mb-3
@@ -110,7 +110,7 @@
       .col-lg-10
         .row.justify-content-end.align-items-center    
           .col-lg-10.col-md-10.up.col-sm-12
-            p(data-aos="fade-down") #[b Conectar:] hablar en un mismo lenguaje, conectar la vivencia personal
+            p(data-aos="fade-down") #[b Conectar:] hablar en un mismo lenguaje, conectar la vivencia personal.
             p(data-aos="fade-down") #[b Descubrir:] el <i>insight</i> puede ayudar a descubrir cómo siente el consumidor.
             p(data-aos="fade-down") #[b Inspirar:] dan el tono justo, son fuentes de inspiración para cualquier acto de comunicación e innovación.
             p(data-aos="fade-down") #[b Transformar:] el <i>insight</i> determina el tipo de comunicación, tanto en su forma cómo en su contenido.
@@ -118,11 +118,11 @@
           .imagen-absolute
             img.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/66.svg', alt='')
 
-    p(data-aos="fade-down").mb-5 Algunas veces los consumer #[i insight] se crean ficticiamente, porque pueden ser el resultado de una afirmación empírica o basado en el conocimiento previo del consumidor. Para que un descubrimiento pueda ser considerado <i>insight</i>, debe cumplir con las siguientes características:
+    p(data-aos="fade-down").mb-5 Algunas veces los #[i consumer insight] se crean ficticiamente, porque pueden ser el resultado de una afirmación empírica o basado en el conocimiento previo del consumidor. Para que un descubrimiento pueda ser considerado <i>insight</i>, debe cumplir con las siguientes características:
 
     img.img-t.img-a.mb-5(data-aos="zoom-in")(src='@/assets/curso/temas/67.svg', alt='')
 
-    p(data-aos="fade-down").mb-5 En definitiva, el primer paso para llegar a un consumer <i>insight</i>, o un <i>insight</i> en el <i>marketing</i> digital, es que se pueda convertir en una estrategia, no solo encontrar un hecho, se debe tener creatividad para convertir el descubrimiento en una idea que sintetice toda la información. 
+    p(data-aos="fade-down").mb-5 En definitiva, el primer paso para llegar a un <i>consumer insight</i>, o un <i>insight</i> en el <i>marketing</i> digital, es que se pueda convertir en una estrategia, no solo encontrar un hecho, se debe tener creatividad para convertir el descubrimiento en una idea que sintetice toda la información. 
 
     Separador 
     #t_3_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
@@ -194,7 +194,7 @@
             .row.justify-content-center.align-items-center
               .col-lg-6
                 h4(data-aos="fade-left") Procesador de texto
-                p(data-aos="fade-left") Su función principal es generar planillas con balances, control de gastos, estados de cuenta, manejos contables, etc.Access (Office).
+                p(data-aos="fade-left") Usado para la redacción de informes, cartas, contenidos, memorandos, folletos sencillos, manuales, tesis, etc. Si el documento es en línea, se pueden introducir animaciones, videos, entre otros.
                 ul.lista-ul.ps-1(data-aos="fade-left")
                   li 
                     i.fas.fa-check.color-v1

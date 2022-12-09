@@ -234,7 +234,7 @@ export default {
         'Rodríguez-Caro, O. J., Montoya-Restrepo, L. A., y Montoya-Restrepo, I. A. (2022). Reconocimiento del valor storytelling y la co-creación en la construcción de microsegmentos a través de la estrategia de marketing digital. <i>I + D Revista de Investigaciones</i>, 17(2).',
       tipo: 'Documento en línea',
       link:
-        'https://udi.edu.co/revistainvestigaciones/index.php/ID/article/view/337/438',
+        'https://www.researchgate.net/publication/363757487_Reconocimiento_del_valor_Storytelling_y_la_Co-creacion_en_la_construccion_de_microsegmentos_a_traves_de_la_Estrategia_de_Marketing_Digital',
     },
     {
       tema: '3. <i>Insights</i> y medios digitales',
